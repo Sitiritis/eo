@@ -77,3 +77,7 @@ Then, you can modify `*.eo` files, run `mvn compile` to compile them
 again and `run.sh` to run it again.
 
 [Have fun!](https://www.elegantobjects.org)
+
+# Examples
+
+Example eo programs can be found under the `examples/` folder and substituted to the `eo/app.eo`.
