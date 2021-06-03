@@ -19,9 +19,8 @@
   base > @
   [v] > n
     seq > @
-      stdout
-        sprintf "Calling derived.n with v = %d\n" v
-      @.m v
+      stdout (sprintf "Calling derived.n with v = %d\n" v)
+      ^.@.m v
 
 [args...] > app
   base > b
